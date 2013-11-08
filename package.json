@@ -1,0 +1,13 @@
+{
+  "name": "combineanduglify",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node main.js"
+  },
+  "main":"main.js",
+  "dependencies": {
+    "uglify-js":"*"
+    ,"underscore":"*" 
+ }
+}
