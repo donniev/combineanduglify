@@ -7,7 +7,7 @@
   },
   "main":"main.js",
   "dependencies": {
-    "UglifyJS2":"*"
+    "uglify-js":"2.4.3"
     ,"underscore":"*" 
  }
 }
