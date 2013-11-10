@@ -1,9 +1,29 @@
 {
   "name": "combineanduglify",
   "version": "0.0.1",
+  "description":"Combine and minify multiple js files",
+  "author":"Don Vawter <donvawter@mac.com>",
+  "contributors":[
+     {
+    	 "name":"Don Vawter",
+    	 "email":"donvawter@mac.com"
+     }             
+   ],
   "private": false,
   "scripts": {
   },
+  "repository":{
+	  "type":"git",
+	  "url":"https://github.com/donniev/combineanduglify.git"
+  },
+  "keywords":[
+      "uglify"
+      ,"minify"
+      ,"cli"
+      ,"combine"
+      ],
+  "analyze":false,
+  "license":"MIT",
   "main":"main.js",
   "dependencies": {
     "uglify-js":"2.4.3"
