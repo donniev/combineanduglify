@@ -1,7 +1,7 @@
 {
   "name": "combineanduglify",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "scripts": {
   },
   "main":"main.js",
