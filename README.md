@@ -15,11 +15,11 @@ Command line usage
 ------------------
     node run.js <source file> <baselocation> <destination> <true|false> <true|false>
     
-* The source file is your file which references multiple js files
+* The source file is your file which references multiple js files (relative to the base location)
 * The base loacation is the base location on the file system where your pages live
 		such that if src in your source files is "/foo/bar.js"  
 		then baselocation/foo/bar is the the file on the file system.
-* The destination is the location of the combined file. For testing you may want to place this outside of your web root
+* The destination is the location of the combined file. This is NOT relative to the base location. For testing you may want to place this outside of your web root
 * The fourth paramater determines whether or not to minify the output file.
 * The fifth paramater when true produces debugging info to the console.
 
